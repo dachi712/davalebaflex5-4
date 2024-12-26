@@ -40,8 +40,10 @@ main {
     display: flex;
     width: 100%;
     justify-content: center;
+    margin-bottom: 193px;
 }
-.mainDiv{
+
+.mainDiv {
     display: flex;
     max-width: 1040px;
     width: 100%;
@@ -63,27 +65,32 @@ main {
     align-items: center;
     gap: 12px;
 }
-.instructionsSpan{
+
+.instructionsSpan {
     color: #323232;
 }
-.houseDiv{
+
+.houseDiv {
     display: flex;
     gap: 48px;
 }
-.housePDiv{
+
+.housePDiv {
     display: flex;
     align-items: center;
     flex-flow: wrap-reverse;
-    
+
 }
-.houseP{
+
+.houseP {
     font-size: 32px;
     text-align: right;
     color: #5E6577;
     font-weight: 400;
     line-height: 40px;
 }
-.totalPriceContainer{
+
+.totalPriceContainer {
     display: flex;
     gap: 24px;
     align-items: center;
@@ -91,37 +98,125 @@ main {
     text-align: left;
     padding: 24px;
 }
-.displaySpan{
+
+.displaySpan {
     color: #4400DD;
     font-weight: 700;
 }
-.includesSpan{
+
+.includesSpan {
     color: #5E6577;
     font-weight: 400;
     line-height: 24px;
 }
-.showdonDiv{
+
+.showdonDiv {
     display: flex;
     gap: 16px;
+    border-top: 2px solid #8CE900;
+    border-right: 2px solid #155EEF;
+    border-bottom: 2px solid #DD2590;
+    border-left: 2px solid #000000;
 }
-.snowdonPDiv{
+
+.snowdonPDiv {
     display: flex;
     max-width: 488px;
     width: 100%;
     padding-top: 18px;
     padding-left: 25px;
 }
-.snowdonP{
+
+.snowdonP {
     color: #5E6577;
     font-size: 24px;
     max-width: 488px;
     width: 100%;
 }
-.nestledDiv{
-    padding-right: 23px;
-    padding-top: 18px;
+
+.nestledDiv {
     display: flex;
     max-width: 488px;
     width: 100%;
     color: #969696;
+    padding: 18px 0px 88px 0px;
+}
+
+.sacramentoDiv {
+    display: flex;
+    padding: 66px 24px;
+    border-radius: 8px;
+    border: 1px solid #40D;
+    background: #EDE6FC;
+    gap: 16px;
+}
+
+.locatedDiv {
+    display: flex;
+    align-items: center;
+    max-width: 488px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: #3B3B3B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.hostelDiv {
+    display: flex;
+    max-width: 488px;
+    width: 100%;
+    align-items: center;
+    font-size: 24px;
+    color: #5E6577;
+    justify-content: end;
+}
+
+.clinkDiv {
+    display: flex;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px solid #004FE3;
+    padding: 0px 24px 16px 24px;
+}
+
+.londonDiv {
+    display: flex;
+    max-width: 488px;
+    width: 100%;
+    color: #07081A;
+    font-size: 24px;
+    align-items: end;
+    color: #07081A;
+    font-weight: 400;
+}
+
+.heartLondonDiv {
+    display: flex;
+    max-width: 488px;
+    width: 100%;
+    padding-top: 166px;
+    color: #155EEF;
+    font-size: 14px;
+}
+footer{
+    display: flex;
+    border-top: 1px solid #F1EBFF;
+    justify-content: center;
+}
+.footerDiv{
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: end;
+}
+.imagesFooterDiv{
+    padding-top: 40px;
+    display: flex;
+    max-width: 312px;
+    width: 100%;
+    gap: 24px;
 }
